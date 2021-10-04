@@ -26,6 +26,7 @@ function App() {
     <div className="App">
       <input type='text' placeholder='입력' value={text} onChange={onChangeText} />
       <button onClick={submitText}>전송</button>
+      <button>아무 의미 없다</button>
     </div>
   );
 }
